@@ -1,0 +1,9 @@
+create table "ASEEF".USERBEAN
+(
+	NAME VARCHAR(20) not null,
+	REGD VARCHAR(10) not null,
+	USERNAME VARCHAR(20) not null,
+	PASSWORD VARCHAR(20),
+	primary key (REGD, USERNAME)
+)
+insert into userbean values('name1','regd1','student1','pass1')
